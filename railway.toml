@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+buildCommand = "echo 'root'"
+
+[deploy]
+startCommand = "echo 'use service-level configs'"
