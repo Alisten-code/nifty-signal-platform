@@ -1,6 +1,3 @@
-[build]
-builder = "nixpacks"
-buildCommand = "echo 'root'"
-
-[deploy]
-startCommand = "echo 'use service-level configs'"
+# Railway monorepo config
+# Each service sets its own Root Directory in the Railway dashboard
+# No global build/start overrides here
